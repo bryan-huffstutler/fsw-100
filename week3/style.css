@@ -1,0 +1,26 @@
+body > h1 {
+  color: darkgreen;
+}
+
+a {
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+img {
+  float: left;
+  padding: 20px 20px;
+  margin: 0 10px 0 0;
+}
+
+#youMight {
+  text-transform: uppercase;
+}
+
+.mainSub {
+  text-align: center;
+  font-family: Georgia;
+}
+
