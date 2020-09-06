@@ -1,0 +1,21 @@
+table {
+  border: black 1px solid;
+}
+
+header {
+  color: blue;
+}
+
+main > p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  width: 350px;
+ 
+}
