@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: slategrey;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightsteelblue;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: darkblue;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h2, h4 {
+  color: darkblue;
+  letter-spacing: 1px;
+}
+
+p {
+  color: rgba(25, 41, 133, 0.562)
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  margin: 0;
+  margin-left: 20px;
+  background-color: darkblue;
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+  text-transform: uppercase;  
+}
+
+.blogPosts {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  background-color: lightgray;
+  text-align: left;
+  border-radius: 1.1em;
+  }
+
+img {
+  width: 145px;
+  height: 145px;
+  float: left;
+  margin-right: 15px;  
+}
