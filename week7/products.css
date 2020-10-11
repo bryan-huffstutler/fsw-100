@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px;
+  background-color: #7FDBFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+div > a {
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #3D9970;
+  transition: font-size, color, 1s;
+}
+
+i {
+  color: #3D9970;
+}
+
+div > a:hover {
+  text-decoration: underline;
+  font-size: 30px;
+  color: slateblue;
+}
+
+html {
+  background-image: url("./MunchiesImages/Donut_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-top: 25px;
+  text-align: center;
+  color: #d948a7;
+  text-shadow: 9px 9px 5px rgb(54, 50, 47);
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 13%;
+  box-shadow: 9px 9px 5px rgba(54, 50, 47, 0.582);
+}
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr;
+  grid-gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  margin: 15px;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(204, 155, 200);
+  padding: 15px;
+  border-radius: 13%;
+  box-shadow: 9px 9px 5px rgba(54, 50, 47, 0.582);
+}
+
+#gridContainer > div:nth-child(even){
+  background-color: pink;
+}
+
+#product1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+span {
+  font-size: 1.3rem;
+  color: steelblue;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  color: #d948a7;
+  background-color: #7FDBFF;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 700px){
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    background-color: #7FDBFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  div > a {
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3D9970;
+    transition: font-size, color, 1s;
+  }
+  
+  i {
+    color: #3D9970;
+  }
+  
+  div > a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    color: slateblue;
+  }
+  
+  html {
+    background-image: url("./MunchiesImages/Donut_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 25px;
+    text-align: center;
+    color: #d948a7;
+  }
+  
+  h3 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+  }
+  
+  #gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product {
+    margin: 15px;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(204, 155, 200);
+    padding: 15px;
+    border-radius: 13%;
+  }
+  
+  #gridContainer > div:nth-child(even){
+    background-color: pink;
+  }
+  
+  #product1 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product2 {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product3 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product4 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product5 {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product6 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product7 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product8 {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product9 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product10 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product11 {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    text-align: center;
+    line-height: 1.8rem;
+  }
+  
+  span {
+    font-size: 1.3rem;
+    color: steelblue;
+    text-transform: uppercase;
+  }
+  
+  footer {
+    text-align: center;
+    color: #d948a7;
+    background-color: #7FDBFF;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    background-color: #7FDBFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  div > a {
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3D9970;
+    transition: font-size, color, 1s;
+  }
+  
+  i {
+    color: #3D9970;
+  }
+  
+  div > a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    color: slateblue;
+  }
+  
+  html {
+    background-image: url("./MunchiesImages/Donut_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 25px;
+    text-align: center;
+    color: #d948a7;
+  }
+  
+  h3 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+  }
+  
+  #gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product {
+    margin: 15px;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(204, 155, 200);
+    padding: 15px;
+    border-radius: 13%;
+    box-shadow: 9px 9px 5px rgba(54, 50, 47, 0.582);
+  }
+  
+  #gridContainer > div:nth-child(even){
+    background-color: pink;
+  }
+  
+  #product1 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product2 {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product3 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product4 {
+    display: flex;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product5 {
+    display: flex;
+    grid-column: 5/6;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product6 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product7 {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product8 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product9 {
+    display: flex;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product10 {
+    display: flex;
+    grid-column: 5/6;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #product11 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    text-align: center;
+    line-height: 1.8rem;
+  }
+  
+  span {
+    font-size: 1.3rem;
+    color: steelblue;
+    text-transform: uppercase;
+  }
+  
+  footer {
+    text-align: center;
+    color: #d948a7;
+    background-color: #7FDBFF;
+    margin-top: 10px;
+  }
+}

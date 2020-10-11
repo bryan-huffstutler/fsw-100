@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+#gridContainer {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px;
+  background-color: #7FDBFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+div > a {
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #3D9970;
+  transition: font-size, color, 1s;
+}
+
+i {
+  color: #3D9970;
+  transition: font-size, color, 1s;
+}
+
+div > a:hover {
+  text-decoration: underline;
+  font-size: 30px;
+  color: slateblue;
+}
+
+html {
+  background-image: url("./MunchiesImages/Donut_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin-top: 25px;
+  text-shadow: 9px 9px 5px rgb(54, 50, 47);
+}
+
+header {
+  display: flex;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  justify-content: center;
+  color: #d948a7;
+  font-size: 50px;
+}
+
+main {
+  display: column;
+  grid-column: 2/3;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#hoursTable {
+  margin: 25px;
+  padding: 10px;
+  color: #d948a7;
+  font-size: 25px;
+  text-align: center;
+  background-color: lightskyblue;
+  border-radius: 20px;
+  border-color: #d948a7;
+  border: #d948a7 solid 3px;
+  border-spacing: 10px;
+  box-shadow: 9px 9px 5px rgba(54, 50, 47, 0.582);
+}
+
+td {
+  padding: 15px;
+}
+button {
+  background-color: #d948a7;
+  width: 100%;
+  font-size: 30px;
+  border-radius: 20px;
+  box-shadow: 9px 9px 5px rgba(54, 50, 47, 0.582);
+}
+
+button > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+img {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 9px 9px 5px rgba(54, 50, 47, 0.582);
+}
+
+#services {
+  text-align: center;
+  list-style-position: inside;
+  color:  #d948a7;
+  font-size: 20px;
+  text-shadow: 9px 9px 5px rgb(54, 50, 47);
+}
+footer {
+  text-align: center;
+  color: #d948a7;
+  background-color: #7FDBFF;
+  margin-top: 10px;
+  grid-column: 1/-1;
+}
+
+@media only screen and (min-width: 1000px){
+  #gridContainer {
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  #hoursTable {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1700px){
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  #hoursTable {
+    font-size: 30px;
+  }
+}
+
